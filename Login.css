@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginBox{
+    background-color: white;
+
+    width: 350px;
+    padding: 30px;
+
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+.LoginBox h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.LoginBox label{
+    display: block;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+.LoginBox input{
+    width: 100%;
+    padding: 10px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.LoginBox button{
+    width: 100%;
+    padding: 10px;
+
+    background-color: #2c3e50;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.LoginBox button:hover{
+    background-color: #3498db;
+}
+
+.LoginBox p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.LoginBox a{
+    color: #3498db;
+    text-decoration: none;
+}
